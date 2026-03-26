@@ -41,9 +41,7 @@ const MovieCard = ({ movie }) => {
     <div>
       <p>{movie.name}</p>
 
-      <button onClick={() => toggleFavorite(movie)}>
-        {" "}
-        {/* Runs only when clicked */}
+      <button onClick={() => toggleFavorite(movie)}> {/* Runs only when clicked */}
         {isFavorite ? "❤️" : "🤍"}
       </button>
     </div>
